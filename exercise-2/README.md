@@ -11,3 +11,5 @@ Web-Ansicht<br>
 
 iOS ODER Android Ansicht<br>
 ![](images/ios_android.png)
+
+Hilfestellung (StyleSheet Cheat Sheet): https://github.com/vhpoet/react-native-styling-cheat-sheet
