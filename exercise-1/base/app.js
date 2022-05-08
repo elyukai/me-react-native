@@ -14,38 +14,34 @@ const App = () => {
                                        ['', '', ''],
                                        ['', '', ''] ])
 
-  const reset = useCallback( () => {
-      setCards([ ['', '', ''],
-                 ['', '', ''],
-                 ['', '', ''] ])
-      setPlayerX(true)
-    },
-    []
-  )
+  const reset = () => {
+    setCards([ ['', '', ''],
+               ['', '', ''],
+               ['', '', ''] ])
+    setPlayerX(true)
+  }
 
-  const onPress = useCallback( (row, col) => {
-      if (cards[row][col] !== '') return
+  const onPress = (row, col) => {
+    if (cards[row][col] !== '') return
 
-      const newCards = copy2dArray(cards)
-      newCards[row][col] = playerX ? 'X' : 'O'
+    const newCards = copy2dArray(cards)
+    newCards[row][col] = playerX ? 'X' : 'O'
 
-      if (checkVictory(row, col, newCards)) {
-        reset()
+    if (checkVictory(row, col, newCards)) {
+      reset()
 
-        const newScore = copyArray(score)
-        if (playerX)
-          newScore[0]++
-        else
-          newScore[1]++
-        
-        score = newScore
-      } else {
-        setCards(newCards)
-        setPlayerX(!playerX)
-      }
-    },
-    [cards, playerX, reset, score]
-  )
+      const newScore = copyArray(score)
+      if (playerX)
+        newScore[0]++
+      else
+        newScore[1]++
+      
+      score = newScore
+    } else {
+      setCards(newCards)
+      setPlayerX(!playerX)
+    }
+  }
 
   return (
     <View style={ styles.app }>
@@ -64,8 +60,8 @@ const App = () => {
           <Text>reset</Text>
         </TouchableOpacity>
       </View>
+      <View style={ styles.field }>
         { /* ↓ Hier muss das Spielfeld vervollständigt werden ↓ */ }
-        <View style={ styles.field }>
         <View style={ styles.row }>
           <Card onPress={ () => onPress(0, 0) } text={ cards[0][0] } />
         </View>
