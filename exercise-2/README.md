@@ -13,3 +13,5 @@ iOS ODER Android Ansicht<br>
 ![](images/ios_android.png)
 
 Hilfestellung (React Native Styling Cheat Sheet): https://github.com/vhpoet/react-native-styling-cheat-sheet
+
+Lösung der Aufgabe: https://snack.expo.dev/52TDWbFBa 
