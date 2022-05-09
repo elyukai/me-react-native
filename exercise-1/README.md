@@ -18,7 +18,7 @@ Vervollständigt den Code an der markierten Stelle so, dass eine Matrix von 3x3 
 
 *Tipp:*
 
-- Ihr könnt die Elemente des Spielfelds manuell aufbauen oder die `map`-Fubktion verwenden.
+- Ihr könnt die Elemente des Spielfelds manuell aufbauen oder die `map`-Funktion verwenden.
 
 ## Aufgabe 1.2
 
@@ -33,4 +33,5 @@ Repariert den Programmcode so, dass die Anzeige funktioniert und hochgezählt wi
 
 Die Musterlösung ist in dem Ordner `sample-solution` zu finden oder über folgenden Link aufrufbar:
 
-Lösung: https://snack.expo.dev/ztpwYAdyu
+Lösung mit `map()`: https://snack.expo.dev/ztpwYAdyu
+Lösung ohne `map()`: https://snack.expo.dev/IOQoLVtfM
