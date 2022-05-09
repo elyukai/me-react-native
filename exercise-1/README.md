@@ -28,3 +28,9 @@ Repariert den Programmcode so, dass die Anzeige funktioniert und hochgezählt wi
 *Tipp:*
 
 - Ihr müsst den Code nur an zwei Stellen anpassen.
+
+## Musterlösung
+
+Die Musterlösung ist in dem Ordner `sample-solution` zu finden oder über folgenden Link aufrufbar:
+
+Lösung: https://snack.expo.dev/ztpwYAdyu
