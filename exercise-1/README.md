@@ -22,7 +22,7 @@ Vervollständigt den Code an der markierten Stelle so, dass eine Matrix von 3x3 
 
 ## Aufgabe 1.2
 
-Vielleicht ist euch aufgefallen, dass der Score oben nicht hochgezählt wird, wenn ein spieler gewinnt.  
+Vielleicht ist euch aufgefallen, dass der Score oben nicht hochgezählt wird, wenn ein Spieler gewinnt.  
 Repariert den Programmcode so, dass die Anzeige funktioniert und hochgezählt wird, wenn die entsprechenden Spieler eine Runde gewinnen.
 
 *Tipp:*
@@ -31,7 +31,9 @@ Repariert den Programmcode so, dass die Anzeige funktioniert und hochgezählt wi
 
 ## Musterlösung
 
-Die Musterlösung ist in dem Ordner `sample-solution` zu finden oder über folgenden Link aufrufbar:
+Die Musterlösungen sind in dem Ordner `sample-solution` zu finden oder über folgenden Link aufrufbar:
 
-Lösung mit `map()`: https://snack.expo.dev/ztpwYAdyu
+Lösung mit `map()`: https://snack.expo.dev/ztpwYAdyu  
 Lösung ohne `map()`: https://snack.expo.dev/IOQoLVtfM
+
+Dabei ist die Lösung ohne `map`-Funktion völlig OK und richtig, da das Konzept erst für Übung 3 eingeführt wurde.
